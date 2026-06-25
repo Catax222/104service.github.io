@@ -1,1 +1,209 @@
-# 104service.github.io
+# 104service.github.io[index.html](https://github.com/user-attachments/files/29355291/index.html)
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>104Service</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    background:#0b0f17;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 8%;
+    border-bottom:1px solid rgba(255,255,255,.08);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:800;
+    color:#4f8cff;
+}
+
+.discord-btn{
+    background:#5865F2;
+    color:white;
+    padding:12px 20px;
+    border-radius:10px;
+    text-decoration:none;
+    font-weight:600;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:#b0b0b0;
+    font-size:18px;
+}
+
+.products{
+    max-width:1300px;
+    margin:auto;
+    padding:40px;
+}
+
+.products h2{
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#111827;
+    border:1px solid rgba(255,255,255,.08);
+    border-radius:18px;
+    padding:25px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#4f8cff;
+}
+
+.card h3{
+    margin-bottom:12px;
+}
+
+.price{
+    font-size:24px;
+    font-weight:700;
+    color:#4f8cff;
+}
+
+.buy{
+    margin-top:18px;
+    width:100%;
+    border:none;
+    padding:12px;
+    border-radius:10px;
+    background:#4f8cff;
+    color:white;
+    font-weight:700;
+    cursor:pointer;
+}
+
+.notice{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.notice h2{
+    color:#4f8cff;
+    margin-bottom:15px;
+}
+
+footer{
+    text-align:center;
+    padding:30px;
+    color:#888;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <div class="logo">104Service</div>
+
+```
+<a class="discord-btn" href="#">
+    Join Discord
+</a>
+```
+
+</header>
+
+<section class="hero">
+    <h1>Premium Digital Products</h1>
+    <p>Fast Delivery • Trusted Service • Best Prices</p>
+</section>
+
+<section class="products">
+    <h2>Products</h2>
+
+```
+<div class="grid">
+
+    <div class="card">
+        <h3>Netflix Premium</h3>
+        <div class="price">€3.99</div>
+        <button class="buy">Join Discord for Purchase</button>
+    </div>
+
+    <div class="card">
+        <h3>Spotify Premium</h3>
+        <div class="price">€2.99</div>
+        <button class="buy">Join Discord for Purchase</button>
+    </div>
+
+    <div class="card">
+        <h3>Disney+</h3>
+        <div class="price">€4.99</div>
+        <button class="buy">Join Discord for Purchase</button>
+    </div>
+
+    <div class="card">
+        <h3>ChatGPT Plus</h3>
+        <div class="price">€8.99</div>
+        <button class="buy">Join Discord for Purchase</button>
+    </div>
+
+    <div class="card">
+        <h3>YouTube Premium</h3>
+        <div class="price">€3.49</div>
+        <button class="buy">Join Discord for Purchase</button>
+    </div>
+
+    <div class="card">
+        <h3>Canva Pro</h3>
+        <div class="price">€4.99</div>
+        <button class="buy">Join Discord for Purchase</button>
+    </div>
+
+</div>
+```
+
+</section>
+
+<section class="notice">
+    <h2>Join Discord for Purchase</h2>
+    <p>All purchases are handled through our Discord server.</p>
+</section>
+
+<footer>
+    © 2026 104Service. All rights reserved.
+</footer>
+
+</body>
+</html>
